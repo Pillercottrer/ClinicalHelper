@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ClinicalHelper</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_one">content_one\nhej\nlol\nasdasd</string>
+    <string name="sepsis_overview"><b>Definition</b>\nEtt tillstånd av livshotande organdysfunktion som orsakas stört systemiskt svar på infektion. Mer exakt då en akut infektion orsakar en organdysfunktion som ger mer än 2 SOFA-poäng.</string>
+    <string name="covid_overview"><b>Prediktorer för allvarlig infektion:</b>\n• Allmänpåverkan\n• Andningsfrekvens>24/min\n• Vilo/ansträngningsdyspné\n• SaO2&lt;94 %* vid luftandning\n• Andra symtom talande för allvarlig infektionssjukdom</string>
+    <string name="dygnsbehov">•Vatten: 0,3 ml/kg (2100 ml, 70 kg) \n•Natrium: 1,1-1,4 mmol/kg (80-100mmol, 70 kg) \n•Kalium: 0,6-0,7 mmol/kg(40-50mmol, 70 kg) \n•Glukos: 2 g/kg(140g, 70 kg)\n•Kilokalorier: 25kcal/kg (1750kcal, 70 kg)</string>
+    <string name="infektion">Infektion</string>
+    <string name="v_tska_och_elektrolyter">Vätska och elektrolyter</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="abcde">ABCDE</string>
+    <string name="hlr">HLR</string>
+    <string name="hypokalemi_info"> <b>Orsaker</b> \n Lågt intag \n Transcellulär förflyttning: T.ex. alkalos, läkemedel (insulin, klorokin, vissa psykofarmaka, tyroxin), magnesiumbrist \n Extrarenala förluster: T.ex. Diarré eller kräkningar(ger alkalos) \n Renala förluster: T.ex. icke kaliumsparande diuretika, primär och sekundär hyperaldosteroonism, psudoaldosteronism (lakritsintag)  \n  <b>Indelning</b> \n <b>Lindrig (3,1-&lt;3,5)</b> \n Ospecifika eller inga symtom. Finns ökad risk för hjärtarytmier hos patienter med hjärtsjukdom. Behandla med p.o. tillförsel.  <b>Måttlig (2,6-3,0)</b> \n <b>Svår (&lt;2,5)</b> </string>
+    <string name="hypokalemi_källa">Läkartidningen.2015;112:DRFX</string>
+
+</resources>

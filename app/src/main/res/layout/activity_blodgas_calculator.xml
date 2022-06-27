@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlodgasCalculator">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.06"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.13"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.14"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.21"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42"/>
+
+
+    <TextView
+        android:id="@+id/tv_blodgascalculator"
+        android:text="Blodgasmaskin"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_pH_bcalc"
+        android:text="pH:"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/et_pH_bcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@id/guideline2_1"
+        app:layout_constraintLeft_toRightOf="@id/tv_pH_bcalc">
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_pCO2_bcalc"
+        android:text="pCO2:"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/et_pCO2_bcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@id/guideline3_1"
+        app:layout_constraintLeft_toRightOf="@id/tv_pCO2_bcalc">
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_pO2_bcalc"
+        android:text="pO2:"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/guideline4"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/et_pO2_bcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@id/guideline4_1"
+        app:layout_constraintLeft_toRightOf="@id/tv_pO2_bcalc"/>
+
+    <TextView
+        android:id="@+id/tv_BE_bcalc"
+        android:text="BE:"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/guideline5"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/et_BE_bcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@id/guideline5_1"
+        app:layout_constraintLeft_toRightOf="@id/tv_BE_bcalc"/>
+
+    <TextView
+        android:id="@+id/tv_HCO3_bcalc"
+        android:text="HCO3:"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/guideline6"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/et_HCO3_bcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@id/guideline6_1"
+        app:layout_constraintLeft_toRightOf="@id/tv_HCO3_bcalc">
+    </EditText>
+
+    <View
+        android:id="@+id/divideline"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/guideline6_1" />
+
+    <TextView
+        android:id="@+id/textView_blodgas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Tolkning: \n"
+        app:layout_constraintTop_toBottomOf="@id/divideline"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+    <Button
+        android:id="@+id/button_cameraaction_bcalc"
+        android:text="Cameraaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/button_go_bcalc"/>
+
+    <Button
+        android:id="@+id/button_go_bcalc"
+        android:text="Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <!--
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="invisible"/>
+
+    <com.ehbmed.clinicalhelper.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+    -->
+</androidx.constraintlayout.widget.ConstraintLayout>
